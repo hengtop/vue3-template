@@ -1,6 +1,11 @@
+<!--
+ * @Date: 2021-11-10 23:23:08
+ * @LastEditors: zhangheng
+ * @LastEditTime: 2021-11-10 23:52:55
+-->
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home11</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />

@@ -40,8 +40,8 @@
   },
   "lint-staged": {
     "src/**/*.{js,vue}": [
-      "prettier --write",
-      "eslint --cache --fix",
+      "prettier --write .",
+      "vue-cli-service lint",
       "git add ."
     ]
   }
