@@ -1,11 +1,11 @@
 <!--
- * @Date: 2021-11-10 23:23:08
+ * @Date: 2021-11-10 19:44:37
  * @LastEditors: zhangheng
- * @LastEditTime: 2021-11-11 00:10:55
+ * @LastEditTime: 2021-11-11 00:52:39
 -->
 <template>
   <div id="nav">
-    <router-link to="/">Home1</router-link> |
+    <router-link to="/">Home </router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
@@ -19,14 +19,11 @@
   text-align: center;
   color: #2c3e50;
 }
-
 #nav {
   padding: 30px;
-
   a {
     font-weight: bold;
     color: #2c3e50;
-
     &.router-link-exact-active {
       color: #42b983;
     }

@@ -1,9 +1,10 @@
 /*
- * @Date: 2021-11-10 23:23:08
+ * @Date: 2021-11-10 19:44:37
  * @LastEditors: zhangheng
- * @LastEditTime: 2021-11-11 00:06:42
+ * @LastEditTime: 2021-11-11 00:49:37
  */
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+
 import Home from '../views/Home.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -27,5 +28,4 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
 })
-
 export default router
