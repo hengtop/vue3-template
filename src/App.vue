@@ -5,7 +5,7 @@
 -->
 <template>
   <div id="nav">
-    <router-link to="/">Home12</router-link> |
+    <router-link to="/">Home1</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
