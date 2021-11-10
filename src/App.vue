@@ -1,11 +1,11 @@
 <!--
  * @Date: 2021-11-10 23:23:08
  * @LastEditors: zhangheng
- * @LastEditTime: 2021-11-11 00:02:44
+ * @LastEditTime: 2021-11-11 00:10:55
 -->
 <template>
   <div id="nav">
-    <router-link to="/">Home1</router-link> |
+    <router-link to="/">Home12</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
