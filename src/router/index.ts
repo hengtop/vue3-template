@@ -3,9 +3,9 @@
  * @LastEditors: zhangheng
  * @LastEditTime: 2021-11-11 00:49:37
  */
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 
-import Home from '../views/Home.vue'
+import Home from '../views/Home.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -22,10 +22,10 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
-]
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
-})
-export default router
+});
+export default router;
